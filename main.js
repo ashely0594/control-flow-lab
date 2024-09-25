@@ -45,6 +45,33 @@ else if (weekPlants2 < Monitored) {
 
 
 
+//Part 2:Thinking Bigger 
+
+let str = 100;
+let weekPlants10 = str * 2 **10 //102,400 of plants after week 10
+console.log(weekPlants10)
+
+let currentSpace = str * MiniSpaceArea //curent space 80
+    console.log(currentSpace) 
+
+
+let additionalSpace = weekPlants10 * MiniSpaceArea //additional space 81920
+ console.log(additionalSpace)
+
+ //calculate the radius
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
