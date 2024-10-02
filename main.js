@@ -9,7 +9,7 @@
 
 const PI= 3.1415; //pie radius
 let r = 5;   //radius of plants
-let A = PI * ((r) **2)  //Area formu
+let A = PI * ((r) **2)  //Area formula
 const MiniSpaceArea = 0.8 
 let WeekPlants1 = 20; 
 
@@ -51,14 +51,31 @@ let str = 100;
 let weekPlants10 = str * 2 **10 //102,400 of plants after week 10
 console.log(weekPlants10)
 
-let currentSpace = str * MiniSpaceArea //curent space 80
+let currentSpace = weekPlants10 * MiniSpaceArea //curent space 81920
     console.log(currentSpace) 
 
 
-let additionalSpace = weekPlants10 * MiniSpaceArea //additional space 81920
- console.log(additionalSpace)
+let additionalSpace = weekPlants10 * MiniSpaceArea - A  //81841
+console.log(additionalSpace)
+
+ let area = weekPlants10 * MiniSpaceArea //additional space 81,920 area
+ console.log(area)
+
+
+
 
  //calculate the radius
+
+ console.log(Math.sqrt(currentSpace/PI)) //radius 161
+
+
+
+//part 3
+
+
+
+
+  
 
  
 
